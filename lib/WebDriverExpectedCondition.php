@@ -34,7 +34,7 @@ class WebDriverExpectedCondition
      */
     private $apply;
 
-    protected function __construct(callable $apply)
+    public function __construct(callable $apply)
     {
         $this->apply = $apply;
     }
